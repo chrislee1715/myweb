@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>광야(曠野)</title>
 
@@ -10,19 +12,23 @@
         padding:0;
         box-sizing:border-box;
     }
+
     body{
         width:960px;
         margin:0 auto;
         overflow:hidden;
     }
+
     #menu{
         width:260px;
         float:left;
     }
+
     #section{
         width:700px;
         float:right;
     }
+
     li{
         list-style:none;
         padding:10px;
@@ -38,12 +44,20 @@
 
     .font_big{
         font-size:2em;
+        margin-bottom:10px;
+    }
+
+    .author{
+        text-align:right;
         margin-bottom:20px;
+        font-size:1em;
+        color:#555;
+        font-family:"Malgun Gothic", sans-serif;
     }
 
     .font_small{
         font-size:1em;
-        line-height:2.2; 
+        line-height:2.2;
     }
 
     @media screen and (max-width:767px){
@@ -69,8 +83,11 @@
         <li>메뉴C</li>
     </ul>
 </div>
+
 <div id="section">
     <h1 class="font_first font_big">광야(曠野)</h1>
+
+    <p class="author">이육사</p>
 
     <p class="font_second font_small">
         까마득한 날에<br>
@@ -90,6 +107,5 @@
         이 광야(曠野)에서 목놓아 부르게 하리라
     </p>
 </div>
-
 </body>
 </html>
